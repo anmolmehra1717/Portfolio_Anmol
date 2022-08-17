@@ -9,6 +9,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    padding-bottom: 0rem;
 }
 
 hr {
@@ -18,6 +19,7 @@ hr {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 
 .container-center {
@@ -101,11 +103,12 @@ hr {
 
 .section{
     padding: 2rem;
+    padding-bottom: 2rem;
 }
 
 .section h3 {
     text-align: center;
-    padding: 2rem;
+    
 }
 
 .ow{
@@ -129,4 +132,5 @@ hr {
 
 .footer ul{
     padding-inline-start: 0px;
+    padding-bottom: orem;
 }
