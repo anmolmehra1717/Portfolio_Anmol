@@ -4,7 +4,7 @@
     --primary-color: #A855F7;
     --dark-gray: #6b7280;
     --off-white: #f3f4f6;
-    --dark: #0f172a;
+    --dark: #1f2937;
 }
 
 body {
@@ -91,6 +91,14 @@ hr {
     display: block;
     margin: auto;
 }
+.hero .about-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    border-radius: 50rem;
+    
+}
+
 
 .hero .hero-heading {
     color: var(--dark-gray);
