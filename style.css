@@ -38,6 +38,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    margin: 2px;
 
 }
 
@@ -45,6 +46,7 @@ hr {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    margin: 2px;
 }
 
 .list-non-bullet {
