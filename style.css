@@ -47,6 +47,7 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     margin: 2px;
+    margin-top: 1rem;
 }
 
 .list-non-bullet {
