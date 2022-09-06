@@ -5,12 +5,14 @@
     --dark-gray: #6b7280;
     --off-white: #f3f4f6;
     --dark: #1f2937;
+    --blue: #fb7185;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    padding-bottom: 0rem;
+    padding-bottom:0rem;
+    
 }
 
 hr {
@@ -35,7 +37,7 @@ hr {
 }
 
 .primary-link {
-    background-color: var(--primary-color);
+    background-color: var(--blue);
     border-radius: 0.5rem;
     color: white;
     margin: 1px;
@@ -43,9 +45,9 @@ hr {
 }
 
 .secondary-link {
-    color: var(--primary-color);
+    color: var(--blue);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--blue);
     margin: 2px;
     margin-top: 1rem;
 }
@@ -60,10 +62,15 @@ hr {
 }
 
 .navigation {
-    background-color: var(--primary-color);
+    background-color: var(--blue);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    background-image: url(/images/background.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .navigation .nav-pills {
@@ -88,6 +95,8 @@ hr {
 .hero {
     padding: 2rem;
     padding-top: 5rem;
+
+    
 }
 
 .hero .hero-img {
@@ -112,7 +121,7 @@ hr {
 }
 
 .hero .hero-heading .hero-inverted {
-    color: var(--primary-color);
+    color: var(--blue);
 }
 
 .section{
@@ -131,11 +140,16 @@ hr {
 }
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 0rem 1rem;
     text-align: center;
     color: white;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    background-image: url(/images/background.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 .footer .link{
     color: white;
@@ -143,9 +157,14 @@ hr {
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
+    padding-top: 1.4rem;
 }
 
 .footer ul{
     padding-inline-start: 0px;
-    padding-bottom: orem;
+
+    
+}
+.footer .footer-logo{
+    width: 45px;
 }
