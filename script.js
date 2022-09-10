@@ -1,5 +1,5 @@
 const options ={
-    bottom: '36rem', 
+    bottom: '30rem', 
   right: '15px', 
   left: 'unset', 
   time: '0.5s',
