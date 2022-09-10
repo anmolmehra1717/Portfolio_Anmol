@@ -99,7 +99,7 @@ h1{
     width: 50px;
  }
  .bubbles img:nth-child(4){
-    animation-delay: 6s;
+    animation-delay: 5s;
     width: 40px;
  }
  .bubbles img:nth-child(5){
@@ -107,6 +107,6 @@ h1{
     width: 70px;
  }
  .bubbles img:nth-child(6){
-    animation-delay: 8.5s;
+    animation-delay: 3.5s;
     width: 35px;
  }
